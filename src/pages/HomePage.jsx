@@ -1,12 +1,13 @@
 import React from 'react'
-import CurrentWeather from '../views/CurrentWeather/CurrentWeather';
+import SideView from '../views/SideView';
 import HighlightWeather from '../views/HighlightWeather/HighlightWeather';
+
 
 const HomePage = () => {
   return (
     <div>
-      <CurrentWeather/>
-      <HighlightWeather/>
+      <SideView/>
+      {/* <HighlightWeather/> */}
     </div>
   )
 }
