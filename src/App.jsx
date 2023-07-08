@@ -1,10 +1,11 @@
 import './index.css'
+import HomePage from './pages/HomePage'
 
 function App() {
   return (
     <>
       <div >
-    <h1 className='text-yellow-300'>hi</h1>
+    <HomePage/>
       </div>
     </>
   )
