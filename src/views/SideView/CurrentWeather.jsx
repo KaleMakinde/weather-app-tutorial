@@ -15,30 +15,31 @@ const CurrentWeather = () => {
       </div>
 
       <div className='contents'>
+
+
       <div className='box-shower-image'>
           <img 
           className='shower-image'
           src={Shower} alt="" />
         </div>
 
-        <div>
-          <h1>15°C</h1>
-        </div>
+        <div className='contents-text'>
+        <h1 className='contents-text-num'>
+        <span className='temperature'>15</span>
+         <span className='unit'>°C</span>
+         </h1>
+          </div>
 
-        <div>
-          <h1>
-            Shower
-          </h1>
-        </div>
+        <div className='contents-desc'><h1>Shower</h1></div>
 
-        <div>
-          <p> Today. Fri, 5 Jun</p>
-        </div>
+        <div className='contents-date'><p> Today. Fri, 5 Jun</p></div>
 
-        <div>
+        <div className='contents-finder'>
         <Finder/>
-        <p>Helsinki</p>
+        <p className='content-finder-name'>Helsinki</p>
         </div>
+
+
       </div>
          
         

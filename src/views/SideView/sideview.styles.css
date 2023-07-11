@@ -4,3 +4,67 @@
     align-items: center;
 }
 
+.box-shower-image{
+    margin-top: 76px;
+}
+.contents-text-num {
+    color: #E7E7EB;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 192px;
+    height: 168px;
+    overflow: none;
+    text-overflow: none;
+    white-space: nowrap;
+    margin-top: 40px;
+    
+  }
+  
+  .temperature,
+  .unit {
+    display: inline;
+  }
+  
+  .unit{
+    color: #A09FB1;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .contents-desc{
+    margin-top: 23px;
+    width: fixed 129px;
+    height: fixed 42px;
+    color: #A09FB1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .contents-date{
+    color: #88869D;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+  }
+
+  .contents-finder{
+    color: #88869D;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 33px;
+    display: flex;
+    padding-bottom: 105px;
+  }
+
+  
