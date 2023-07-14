@@ -67,4 +67,61 @@
     padding-bottom: 105px;
   }
 
-  
+/* WeatherSearch CSS */
+.close-btn{
+    padding-top: 12px;
+    margin-left: 339px;
+    padding-bottom: 22px;
+}
+
+
+.btn-search{
+    width: 86px;
+    height: 48px;
+    background: #3C47E9;
+    outline: none;
+    margin-left: 12px;
+}
+
+.search-role{
+    display: flex;
+    float: left;
+    width: 252px;
+    height: 48px;
+    border: 1px solid #E7E7EB;
+    margin-left: 13px;
+    
+    
+}
+.search-container{
+    padding-top: 100px;
+}
+.search-btn{
+    margin-top: 12px;
+    margin-left: 12px;
+    padding-bottom: 12px;
+}
+.query-details{
+    background-color: #1E213A;
+    padding-left: 13px;
+    outline: none;
+    
+    
+}
+/* Remove clear button in input field */
+input[type="text"]::-ms-clear,
+input[type="text"]::-ms-reveal {
+  display: none;
+}
+
+input[type="text"]::-webkit-search-cancel-button,
+input[type="text"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+input[type="text"]::-webkit-clear-button,
+input[type="search"]::-webkit-clear-button {
+  display: none;
+}
