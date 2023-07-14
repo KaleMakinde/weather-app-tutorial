@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div>
       <SideView/>
-      {/* <HighlightWeather/> */}
+      <HighlightWeather/>
     </div>
   )
 }
