@@ -1,0 +1,65 @@
+.HomePage {
+    display: flex;
+    background-color: aquamarine;
+    /* padding-right: 1rem; */
+    /* padding-left: 6rem; */
+    box-sizing: border-box;
+    align-content: center;
+    overflow: hidden;
+    
+   
+    
+
+  }
+
+  @media (min-width: 319px) and (max-width: 480px) {
+
+    .HomePage  {
+         display: block; 
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        align-items: center;
+        box-sizing: border-box;
+        
+        
+    background-color: lightsalmon;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    .HomePage  {
+
+
+        /* display: block;  */
+        /* flex-direction: column; */
+        /* width: 100%;
+        height: 100%;
+        box-sizing: content-box; */
+        /* overflow: hidden;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: center; */
+        display: block;
+        
+        
+
+        
+        
+      background-color: powderblue;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .HomePage  {
+      background-color: limegreen;
+    }
+  }
+
+  @media (min-width: 1601px ) {
+    .HomePage  {
+        
+      background-color: seagreen; 
+    }
+  }
