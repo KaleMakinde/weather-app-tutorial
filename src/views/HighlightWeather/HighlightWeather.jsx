@@ -7,7 +7,7 @@ import Navigation from '../../assets/svgs/navigation';
 
 const HighlightWeather = () => {
   return (
-    <div className='bg-[#100e1d] min-h-screen'>
+    <div className='HighlightWeather'>
 
       <div className='forecast-card'>
 
@@ -42,7 +42,7 @@ const HighlightWeather = () => {
 
 
         </div>
-        <div className='forecast-card3'>
+        <div className='forecast-card1 '>
 
         <div className='box-card'>
                 <h1 className='box-text2'>Mon, 8 Jun</h1>
@@ -57,7 +57,7 @@ const HighlightWeather = () => {
             </div>
         </div>
 
-        <div className='forecast-card4'>
+        <div className='forecast-card2'>
 
         <div className='box-card'>
                 <h1 className='box-text3'>Tue, 9 Jun</h1>
@@ -72,7 +72,7 @@ const HighlightWeather = () => {
             </div>
         </div>
 
-        <div className='forecast-card5'>
+        <div className='forecast-card1'>
 
         <div className='box-card'>
                 <h1 className='box-text4'>Wed, 10 Jun</h1>

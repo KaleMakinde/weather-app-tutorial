@@ -30,6 +30,7 @@
     flex-shrink: 0;
     background: #1E213A;
     margin-top: 32px;
+    
 } 
 .forecast-card4{
     width: 120px;
@@ -358,3 +359,12 @@
     padding-top: 12px;
     padding-bottom: 51px;
 }
+
+.HighlightWeather{
+    background-color: #100e1d;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    /* padding-right: 6rem;
+    padding-left: 6rem; */
+}
+

@@ -125,3 +125,5 @@ input[type="text"]::-webkit-clear-button,
 input[type="search"]::-webkit-clear-button {
   display: none;
 }
+
+

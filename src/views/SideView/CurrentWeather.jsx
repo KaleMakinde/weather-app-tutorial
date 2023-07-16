@@ -6,8 +6,8 @@ import './sideview.styles.css'
 
 const CurrentWeather = () => {
   return (
-    <div className='bg-[#1E213A] min-h-screen'>
-      <div className='flex justify-between py-4 px-2.5 items-start'>
+    <div className='bg-[#1E213A] min-h-screen' >
+      <div className='flex justify-between py-6 px-2.5 items-start w-96'>
         <button className='bg-[#6E707A] py-1.5 px-4 text-base'>
           Search for Places
         </button>
