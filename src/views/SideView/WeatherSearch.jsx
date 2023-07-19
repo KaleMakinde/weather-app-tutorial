@@ -8,10 +8,10 @@ const WeatherSearch = () => {
     <div className='bg-[#1E213A] min-h-screen'>
 
       <div className='search-container'>
-        <div className="close-btn"> <Close /></div>
+        <div className="search-container__close-btn"> <Close /></div>
         
-        <form className="search-role">
-            <div className="search-btn"><Search /></div>
+        <form className="search-container___search-role">
+            <div className="search-container___search-btn"><Search /></div>
 
                 <input
                 type="search"
@@ -23,7 +23,7 @@ const WeatherSearch = () => {
 
        
         
-        <button className='btn-search'>Search</button>
+        <button className='search-container___button'>Search</button>
         
       </div>
     </div>

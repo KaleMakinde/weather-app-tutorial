@@ -1,13 +1,38 @@
-.contents{
+.current-weather {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 33 58 / var(--tw-bg-opacity));
+    min-height: 100%;
+    width: 420px;
+    
+    /* height: 1023px; */
+    /* flex-shrink: 0;  */
+}
+.current-weather__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 46px;
+}
+.current-weather__header-btn{
+    --tw-bg-opacity: 1;
+    background-color: rgb(110 112 122 / var(--tw-bg-opacity));
+    padding-top: 0.375rem/* 6px */;
+    padding-bottom: 0.375rem/* 6px */;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    font-size: 1rem/* 16px */;
+    line-height: 1.5rem/* 24px */;
+}
+
+.current-weather__contents{ 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.box-shower-image{
+.current-weather__contents-img{
     margin-top: 76px;
 }
-.contents-text-num {
+.current-weather__contents-text {
     color: #E7E7EB;
     font-size: 144px;
     font-style: normal;
@@ -33,7 +58,7 @@
     font-weight: 500;
   }
 
-  .contents-desc{
+  .current-weather__contents-desc{
     margin-top: 23px;
     width: fixed 129px;
     height: fixed 42px;
@@ -45,7 +70,7 @@
     font-weight: 600;
     line-height: normal;
   }
-  .contents-date{
+  .current-weather__contents-date{
     color: #88869D;
     font-family: Raleway;
     font-size: 18px;
@@ -55,7 +80,7 @@
     margin-top: 48px;
   }
 
-  .contents-finder{
+  .current-weather__contents-location{
     color: #88869D;
     font-family: Raleway;
     font-size: 18px;
@@ -68,22 +93,16 @@
   }
 
 /* WeatherSearch CSS */
-.close-btn{
+
+.search-container{
+    padding-top: 100px;
+}
+.search-container__close-btn{
     padding-top: 12px;
     margin-left: 339px;
     padding-bottom: 22px;
 }
-
-
-.btn-search{
-    width: 86px;
-    height: 48px;
-    background: #3C47E9;
-    outline: none;
-    margin-left: 12px;
-}
-
-.search-role{
+.search-container___search-role{
     display: flex;
     float: left;
     width: 252px;
@@ -93,13 +112,24 @@
     
     
 }
-.search-container{
-    padding-top: 100px;
+
+.search-container___button{
+    width: 86px;
+    height: 48px;
+    /* background: #3C47E9; */
+    outline: none;
+    margin-left: 12px;
+    background: #3C47E9;
 }
-.search-btn{
+
+
+
+.search-container___search-btn{
+    
     margin-top: 12px;
     margin-left: 12px;
     padding-bottom: 12px;
+    
 }
 .query-details{
     background-color: #1E213A;
@@ -125,5 +155,14 @@ input[type="text"]::-webkit-clear-button,
 input[type="search"]::-webkit-clear-button {
   display: none;
 }
+
+
+
+
+    
+
+
+
+
 
 

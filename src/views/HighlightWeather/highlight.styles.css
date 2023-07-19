@@ -1,52 +1,33 @@
 
 .forecast-card{
     display: flex;
-    flex-direction: grid;
-    align-items: center;
-    margin-left: 54px;
-    margin-right: 55px;
     flex-wrap: wrap;
-    padding-top: 52px;
-    justify-content: space-between; 
+    padding: 52px; 
+    justify-content: space-between;
+
+    
   }
 
-.forecast-card1{
+.box-card{
     width: 120px;
     height: 177px;
     flex-shrink: 0;
     background: #1E213A;
+margin-bottom: 20px;
+    
     
 }  
-.forecast-card2{
-    width: 120px;
-    height: 177px;
-    flex-shrink: 0;
-    background: #1E213A;
-    
-} 
-.forecast-card3{
-    width: 120px;
-    height: 177px;
-    flex-shrink: 0;
-    background: #1E213A;
-    margin-top: 32px;
-    
-} 
-.forecast-card4{
-    width: 120px;
-    height: 177px;
-    flex-shrink: 0;
-    background: #1E213A;
-    margin-top: 32px;
-} 
-.forecast-card5{
-    width: 120px;
-    height: 177px;
-    flex-shrink: 0;
-    background: #1E213A;
-    margin-top: 32px;
-} 
 
+
+.HighlightWeather{
+    background-color: #100e1d;
+    
+
+    
+    flex-wrap: wrap;
+    /* padding-right: 6rem;
+    padding-left: 6rem; */
+}
 
 
 
@@ -58,6 +39,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: border-box;
+    margin-left: 28px;
+    margin-right: 29px;
+    
 }
 .HighlightCard1{
     width: 328px;
@@ -65,6 +49,7 @@
     flex-shrink: 0;
     background: #1E213A;
     margin-top: 32px;
+    
 
     
 }
@@ -96,7 +81,8 @@
 }
 
 .weatherHighlight{
-    margin-left: 21px;
+    margin-left: 28px;
+    margin-right: 29px;
 
 }
 .weatherHighlighttext{
@@ -111,6 +97,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 28px;
+   
 }
 
 
@@ -360,11 +348,5 @@
     padding-bottom: 51px;
 }
 
-.HighlightWeather{
-    background-color: #100e1d;
-    min-height: 100vh;
-    flex-wrap: wrap;
-    /* padding-right: 6rem;
-    padding-left: 6rem; */
-}
+
 

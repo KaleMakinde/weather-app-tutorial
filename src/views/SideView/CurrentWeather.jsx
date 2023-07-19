@@ -6,43 +6,36 @@ import './sideview.styles.css'
 
 const CurrentWeather = () => {
   return (
-    <div className='bg-[#1E213A] min-h-screen' >
-      <div className='flex justify-between py-6 px-2.5 items-start w-96'>
-        <button className='bg-[#6E707A] py-1.5 px-4 text-base'>
+    <div className='current-weather'>
+      <div className='current-weather__header'>
+        <button className='current-weather__header-btn'>
           Search for Places
         </button>
-        <GPS/>
+        <GPS />
       </div>
-
-      <div className='contents'>
-
-
-      <div className='box-shower-image'>
-          <img 
-          className='shower-image'
-          src={Shower} alt="" />
+      <div className='current-weather__contents'>
+        <div className='current-weather__contents-img'>
+          <img
+            src={Shower} alt="" />
+        </div>
+        <div className='current-weather__contents-text'>
+          <h1>
+            <span className='temperature'>15</span>
+            <span className='unit'>°C</span>
+          </h1>
+        </div>
+        <div className='current-weather__contents-desc'>
+          <h1>Shower</h1>
+        </div>
+        <div className='current-weather__contents-date'>
+          <p> Today. Fri, 5 Jun</p>
         </div>
 
-        <div className='contents-text'>
-        <h1 className='contents-text-num'>
-        <span className='temperature'>15</span>
-         <span className='unit'>°C</span>
-         </h1>
-          </div>
-
-        <div className='contents-desc'><h1>Shower</h1></div>
-
-        <div className='contents-date'><p> Today. Fri, 5 Jun</p></div>
-
-        <div className='contents-finder'>
-        <Finder/>
-        <p className='content-finder-name'>Helsinki</p>
+        <div className='current-weather__contents-location'>
+          <Finder />
+          <p>Helsinki</p>
         </div>
-
-
       </div>
-         
-        
     </div>
   )
 }
