@@ -7,6 +7,7 @@
     align-content: center;
     overflow: hidden;
     
+    
    
     
 
@@ -41,7 +42,14 @@
         align-items: center;
         box-sizing: border-box;
         justify-content: center; */
-        display: block;
+        /* display: grid; */
+        /* padding-left: 15rem; */
+        /* width: 1440px; */
+        /* height: 980px; */
+        /* height: auto; */
+  
+
+        
         
         
 
@@ -53,6 +61,7 @@
 
   @media (min-width: 1201px) and (max-width: 1600px) {
     .HomePage  {
+        
       background-color: limegreen;
     }
   }
@@ -61,5 +70,6 @@
     .HomePage  {
         
       background-color: seagreen; 
+      
     }
   }

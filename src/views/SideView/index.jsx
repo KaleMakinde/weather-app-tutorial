@@ -4,9 +4,9 @@ import WeatherSearch from './WeatherSearch'
 
 const SideView = () => {
   return (
-
-    <div className='SideView'>
-      <CurrentWeather />
+   
+   <div>
+      <CurrentWeather/>
       {/* <WeatherSearch/>  */}
 
     </div>

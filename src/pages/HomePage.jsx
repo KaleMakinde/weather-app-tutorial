@@ -7,7 +7,7 @@ import './Home.style.css'
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <SideView/>
+      <SideView />
       <HighlightWeather />
     </div>
   )

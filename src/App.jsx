@@ -3,11 +3,9 @@ import HomePage from './pages/HomePage'
 
 function App() {
   return (
-    <>
-      <div >
-        <HomePage />
-      </div>
-    </>
+    <div>
+      <HomePage />
+    </div>
   )
 }
 
