@@ -1,18 +1,43 @@
 import React from 'react';
 import './highlight.styles.css';
+import ModSleetSwrsDay from '../../assets/weather-app-master/ModSleetSwrsDay.png';
+import PartCloudRainThunderDay from '../../assets/weather-app-master/PartCloudRainThunderDay.png';
+import LightCloud from '../../assets/weather-app-master/LightCloud.png';
+import ModRain from '../../assets/weather-app-master/LightCloud.png';
+import './highlight.styles.css'
 
 import Navigation from '../../assets/svgs/navigation';
 import ForecastCard from './ForecastCard';
+
 
 const HighlightWeather = () => {
     return (
         <div className='HighlightWeather'>
             <div className='forecast-card'>
-                <ForecastCard />
-                <ForecastCard />
-                <ForecastCard />
-                <ForecastCard />
-                <ForecastCard />
+                <ForecastCard 
+                day={'Tomorrow' }
+                temp={{celts: '16°C', f: '11°C'}}
+                Image={ModSleetSwrsDay} 
+                />
+                <ForecastCard 
+                day={'Sun, 7 Jun' }
+                temp={{celts: '16°C', f: '18°C'}}
+                Image={ModSleetSwrsDay} />
+
+                <ForecastCard 
+                day={'Mon, 8 Jun' }
+                temp={{celts: '16°C', f: '11°C'}}
+                Image={PartCloudRainThunderDay} />
+
+                <ForecastCard 
+                day={'Tue, 9 Jun' }
+                temp={{celts: '16°C', f: '10°C'}}
+                Image={LightCloud} />
+
+                <ForecastCard
+                day={'Wed, 10 Jun' }
+                temp={{celts: '16°C', f: '12°C'}}
+                Image={ModRain}  />
                 
 
             </div>

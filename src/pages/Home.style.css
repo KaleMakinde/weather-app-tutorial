@@ -4,7 +4,7 @@
     /* padding-right: 1rem; */
     /* padding-left: 6rem; */
     box-sizing: border-box;
-    align-content: center;
+    
     overflow: hidden;
     
     
@@ -16,13 +16,19 @@
   @media (min-width: 319px) and (max-width: 480px) {
 
     .HomePage  {
-         display: block; 
-        box-sizing: border-box;
+         display: flex; 
+        
         width: 100%;
         height: 100%;
         overflow: hidden;
-        align-items: center;
+
         box-sizing: border-box;
+        flex-wrap: wrap;
+        
+        align-content: center;
+    flex-direction: column;
+        /* margin-left: 3rem; */
+        /* margin-right: 13rem; */
         
         
     background-color: lightsalmon;
@@ -31,10 +37,13 @@
 
   @media (min-width: 481px) and (max-width: 1200px) {
     .HomePage  {
+        
 
 
-        /* display: block;  */
-        /* flex-direction: column; */
+        display: grid; 
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
         /* width: 100%;
         height: 100%;
         box-sizing: content-box; */
@@ -44,9 +53,9 @@
         justify-content: center; */
         /* display: grid; */
         /* padding-left: 15rem; */
-        /* width: 1440px; */
-        /* height: 980px; */
+        
         /* height: auto; */
+       
   
 
         
