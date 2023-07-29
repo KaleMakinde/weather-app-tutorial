@@ -21,10 +21,14 @@ margin-bottom: 20px;
 
 .HighlightWeather{
     background-color: #100e1d;
+    overflow: hidden;
+    /* padding-left: 2rem; */
+    
     
 
     
     flex-wrap: wrap;
+    align-content: center;
     /* padding-right: 6rem;
     padding-left: 6rem; */
 }
@@ -34,9 +38,8 @@ margin-bottom: 20px;
 
 .HighlightCard{
     display: flex;
-    flex-direction: grid;
-    align-items: center;
     flex-wrap: wrap;
+    
     justify-content: space-between;
     box-sizing: border-box;
     margin-left: 28px;
