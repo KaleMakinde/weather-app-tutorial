@@ -5,6 +5,8 @@ import Finder from '../../assets/svgs/finder'
 import './sideview.styles.css'
 
 const CurrentWeather = () => {
+
+  
   return (
     <div className='current-weather'>
       <div className='current-weather__header'>
