@@ -8,6 +8,7 @@
     overflow: hidden;
     
     
+    
    
     
 
@@ -70,7 +71,7 @@
 
   @media (min-width: 1201px) and (max-width: 1600px) {
     .HomePage  {
-        
+       display: flex;
       background-color: limegreen;
     }
   }
