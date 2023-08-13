@@ -1,0 +1,30 @@
+.homePage {
+  display: flex;
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* @media (min-width: 319px) and (max-width: 480px) {
+  .HomePage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background-color: lightsalmon;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  .HomePage {
+    display: grid;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: powderblue;
+  }
+} */

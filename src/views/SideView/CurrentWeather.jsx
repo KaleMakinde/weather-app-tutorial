@@ -2,17 +2,17 @@ import React from 'react'
 import GPS from '../../assets/svgs/SvgPack'
 import Shower from '../../assets/weather-app-master/Shower.png'
 import Finder from '../../assets/svgs/finder'
-import './sideview.styles.css'
+import './sideview.styles.css';
+import Button from '../../components/Button/Button';
+
 
 const CurrentWeather = () => {
 
-  
+
   return (
     <div className='current-weather'>
       <div className='current-weather__header'>
-        <button className='current-weather__header-btn'>
-          Search for Places
-        </button>
+        <Button color='grey' width={"161px"}> Search for places</Button>
         <GPS />
       </div>
       <div className='current-weather__contents'>

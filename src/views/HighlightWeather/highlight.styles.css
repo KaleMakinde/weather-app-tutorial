@@ -41,7 +41,7 @@ margin-bottom: 20px;
     flex-wrap: wrap;
     
     justify-content: space-between;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin-left: 28px;
     margin-right: 29px;
     
@@ -125,10 +125,10 @@ margin-bottom: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 76px;
+    width: 115px;
     height: 19px;
     padding-top: 18px;
-    padding-left: 22px;
+    padding-left: 10px;
 }
 
 .box-image{
@@ -203,7 +203,7 @@ margin-bottom: 20px;
     padding-top: 18px;
     padding-left: 22px;
 }
-.box-text4{
+/* .box-text4{
     color: #E7E7EB;
     font-family: Raleway;
     font-size: 16px;
@@ -214,7 +214,7 @@ margin-bottom: 20px;
     height: 19px;
     padding-top: 18px;
     padding-left: 22px;
-}
+} */
 
 
 /* weatherhighlight CSS */

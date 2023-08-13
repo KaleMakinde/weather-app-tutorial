@@ -82,7 +82,7 @@
 
   .current-weather__contents-location{
     color: #88869D;
-    font-family: Raleway;
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -102,7 +102,7 @@
     margin-left: 339px;
     padding-bottom: 22px;
 }
-.search-container___search-role{
+/* .search-container___search-role{
     display: flex;
     float: left;
     width: 252px;
@@ -111,33 +111,10 @@
     margin-left: 13px;
     
     
-}
-
-.search-container___button{
-    width: 86px;
-    height: 48px;
-    /* background: #3C47E9; */
-    outline: none;
-    margin-left: 12px;
-    background: #3C47E9;
-}
+} */
 
 
 
-.search-container___search-btn{
-    
-    margin-top: 12px;
-    margin-left: 12px;
-    padding-bottom: 12px;
-    
-}
-.query-details{
-    background-color: #1E213A;
-    padding-left: 13px;
-    outline: none;
-    
-    
-}
 /* Remove clear button in input field */
 input[type="text"]::-ms-clear,
 input[type="text"]::-ms-reveal {
