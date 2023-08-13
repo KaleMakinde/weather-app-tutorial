@@ -1,11 +1,9 @@
 import './index.css'
-import HomePage from './pages/HomePage'
+import HomePage from './pages/HomePage/HomePage'
 
 function App() {
   return (
-    <div>
-      <HomePage />
-    </div>
+    <HomePage />
   )
 }
 
